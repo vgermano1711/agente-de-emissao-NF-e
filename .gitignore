@@ -1,0 +1,24 @@
+# Certificados digitais — nunca versionados
+certs/
+*.pfx
+*.p12
+
+# Ambiente
+.env
+.env.local
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Logs e dados
+logs/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
